@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Puffpaw Whitepaper",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,112 +11,103 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Whitepaper",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Welcome",
+            "pages": ["index"]
+          },
+          {
+            "group": "Introduction",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "introduction/what-is-puffpaw",
+              "introduction/investor-highlights",
+              "introduction/investor-highlights/market-cap-potential",
+              "introduction/investor-highlights/international-acceptance",
+              "introduction/we-solved-it",
+              "introduction/masterplan"
             ]
           },
           {
-            "group": "Customization",
+            "group": "How to get a vape",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "how-to-get-a-vape/genesis-vape-sold-out",
+              "how-to-get-a-vape/gen2-vapes",
+              "how-to-get-a-vape/gen2-vapes/gen-2-features",
+              "how-to-get-a-vape/gen2-vapes/sale-models",
+              "how-to-get-a-vape/gen2-vapes/invite-to-earn-program",
+              "how-to-get-a-vape/puffpaw-smart-vape",
+              "how-to-get-a-vape/puffpaw-smart-vape/what-is-it",
+              "how-to-get-a-vape/puffpaw-smart-vape/what-is-it/genesis-pods-sold-out",
+              "how-to-get-a-vape/puffpaw-smart-vape/organic-e-liquid",
+              "how-to-get-a-vape/puffpaw-app",
+              "how-to-get-a-vape/puffpaw-app/managing-multiple-vapes-wallets",
+              "how-to-get-a-vape/puffpaw-app/login-tutorial",
+              "how-to-get-a-vape/puffpaw-app/bind-your-puff-pass",
+              "how-to-get-a-vape/puffpaw-app/monitor-and-claim-earnings",
+              "how-to-get-a-vape/what-if-i-dont-smoke"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "How to get started",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "how-to-get-started",
+              "how-to-get-started/1.-firmware-upgrade-upgrades.puffpaw.xyz",
+              "how-to-get-started/2.-stake-your-puff-pass-staking.puffpaw.xyz",
+              "how-to-get-started/3.-open-the-app-guide.puffpaw.xyz",
+              "how-to-get-started/puff-pass-vape-availability-checker"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Puffpaw token",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "puffpaw-token/what-is-it",
+              "puffpaw-token/how-to-earn",
+              "puffpaw-token/tokenomics",
+              "puffpaw-token/paid-to-quit-nicotine-model",
+              "puffpaw-token/paid-to-quit-nicotine-model/mining-efficiency-economy",
+              "puffpaw-token/paid-to-quit-nicotine-model/mining-efficiency-economy/gameplay-vape-mining",
+              "puffpaw-token/paid-to-quit-nicotine-model/production-economy",
+              "puffpaw-token/paid-to-quit-nicotine-model/pod-economy"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Roadmap",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "roadmap/overview",
+              "roadmap/r-and-d",
+              "roadmap/puff-labs-tg-mini-game",
+              "roadmap/puff-pass",
+              "roadmap/product-activation"
+            ]
+          },
+          {
+            "group": "More info",
+            "pages": [
+              "more-info/team",
+              "more-info/partners",
+              "more-info/get-involved",
+              "more-info/disclaimer"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Puffpaw",
+      "href": "https://www.puffpaw.xyz"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/puffpawxyz"
     }
   }
 }
