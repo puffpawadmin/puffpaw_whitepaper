@@ -90,13 +90,13 @@
             ]
           },
           {
-            "group": "How to get started",
+            "group": "How to Get Started!",
+            "root": "how-to-get-started/index",
+            "expanded": false,
             "pages": [
-              "how-to-get-started/index",
               "how-to-get-started/1.-firmware-upgrade-upgrades.puffpaw.xyz",
               "how-to-get-started/2.-stake-your-puff-pass-staking.puffpaw.xyz",
-              "how-to-get-started/3.-open-the-app-guide.puffpaw.xyz",
-              "how-to-get-started/puff-pass-vape-availability-checker"
+              "how-to-get-started/3.-open-the-app-guide.puffpaw.xyz"
             ]
           },
           {
