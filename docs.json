@@ -32,9 +32,15 @@
             "group": "Introduction",
             "pages": [
               "introduction/what-is-puffpaw",
-              "introduction/investor-highlights/index",
-              "introduction/investor-highlights/market-cap-potential",
-              "introduction/investor-highlights/international-acceptance",
+              {
+                "group": "Investor Highlights",
+                "root": "introduction/investor-highlights/index",
+                "expanded": false,
+                "pages": [
+                  "introduction/investor-highlights/market-cap-potential",
+                  "introduction/investor-highlights/international-acceptance"
+                ]
+              },
               "introduction/we-solved-it",
               "introduction/masterplan"
             ]
@@ -43,19 +49,43 @@
             "group": "How to get a vape",
             "pages": [
               "how-to-get-a-vape/genesis-vape-sold-out",
-              "how-to-get-a-vape/gen2-vapes/index",
-              "how-to-get-a-vape/gen2-vapes/gen-2-features",
-              "how-to-get-a-vape/gen2-vapes/sale-models",
-              "how-to-get-a-vape/gen2-vapes/invite-to-earn-program",
-              "how-to-get-a-vape/puffpaw-smart-vape/index",
-              "how-to-get-a-vape/puffpaw-smart-vape/what-is-it/index",
-              "how-to-get-a-vape/puffpaw-smart-vape/what-is-it/genesis-pods-sold-out",
-              "how-to-get-a-vape/puffpaw-smart-vape/organic-e-liquid",
-              "how-to-get-a-vape/puffpaw-app/index",
-              "how-to-get-a-vape/puffpaw-app/managing-multiple-vapes-wallets",
-              "how-to-get-a-vape/puffpaw-app/login-tutorial",
-              "how-to-get-a-vape/puffpaw-app/bind-your-puff-pass",
-              "how-to-get-a-vape/puffpaw-app/monitor-and-claim-earnings",
+              {
+                "group": "Gen2 Vapes",
+                "root": "how-to-get-a-vape/gen2-vapes/index",
+                "expanded": false,
+                "pages": [
+                  "how-to-get-a-vape/gen2-vapes/gen-2-features",
+                  "how-to-get-a-vape/gen2-vapes/sale-models",
+                  "how-to-get-a-vape/gen2-vapes/invite-to-earn-program"
+                ]
+              },
+              {
+                "group": "Puffpaw Smart Vape",
+                "root": "how-to-get-a-vape/puffpaw-smart-vape/index",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "What is it?",
+                    "root": "how-to-get-a-vape/puffpaw-smart-vape/what-is-it/index",
+                    "expanded": false,
+                    "pages": [
+                      "how-to-get-a-vape/puffpaw-smart-vape/what-is-it/genesis-pods-sold-out"
+                    ]
+                  },
+                  "how-to-get-a-vape/puffpaw-smart-vape/organic-e-liquid"
+                ]
+              },
+              {
+                "group": "Puffpaw App",
+                "root": "how-to-get-a-vape/puffpaw-app/index",
+                "expanded": false,
+                "pages": [
+                  "how-to-get-a-vape/puffpaw-app/managing-multiple-vapes-wallets",
+                  "how-to-get-a-vape/puffpaw-app/login-tutorial",
+                  "how-to-get-a-vape/puffpaw-app/bind-your-puff-pass",
+                  "how-to-get-a-vape/puffpaw-app/monitor-and-claim-earnings"
+                ]
+              },
               "how-to-get-a-vape/what-if-i-dont-smoke"
             ]
           },
@@ -75,11 +105,23 @@
               "puffpaw-token/what-is-it",
               "puffpaw-token/how-to-earn",
               "puffpaw-token/tokenomics",
-              "puffpaw-token/paid-to-quit-nicotine-model/index",
-              "puffpaw-token/paid-to-quit-nicotine-model/mining-efficiency-economy/index",
-              "puffpaw-token/paid-to-quit-nicotine-model/mining-efficiency-economy/gameplay-vape-mining",
-              "puffpaw-token/paid-to-quit-nicotine-model/production-economy",
-              "puffpaw-token/paid-to-quit-nicotine-model/pod-economy"
+              {
+                "group": "Paid to quit nicotine Model",
+                "root": "puffpaw-token/paid-to-quit-nicotine-model/index",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "Mining Efficiency Economy",
+                    "root": "puffpaw-token/paid-to-quit-nicotine-model/mining-efficiency-economy/index",
+                    "expanded": false,
+                    "pages": [
+                      "puffpaw-token/paid-to-quit-nicotine-model/mining-efficiency-economy/gameplay-vape-mining"
+                    ]
+                  },
+                  "puffpaw-token/paid-to-quit-nicotine-model/production-economy",
+                  "puffpaw-token/paid-to-quit-nicotine-model/pod-economy"
+                ]
+              }
             ]
           },
           {
